@@ -1,0 +1,17 @@
+{
+    "name": "cast-type",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "bugs": "https://github.com/evenue/cast-type/issues",
+    "license": "MIT",
+    "homepage": "https://github.com/evenue/cast-type",
+    "description": "Avoid manually force casting type to any",
+    "scripts": {
+        "build": "tsc",
+        "clean": "rm -rf dist",
+        "prepublishOnly": "yarn build && yarn clean"
+    },
+    "devDependencies": {
+        "typescript": "^3.6.3"
+    }
+}
