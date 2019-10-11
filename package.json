@@ -1,7 +1,8 @@
 {
     "name": "cast-type",
     "version": "1.0.0",
-    "main": "dist/index.js",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "bugs": "https://github.com/evenue/cast-type/issues",
     "license": "MIT",
     "homepage": "https://github.com/evenue/cast-type",
@@ -12,6 +13,6 @@
         "prepublishOnly": "yarn clean && yarn build"
     },
     "devDependencies": {
-        "typescript": "^3.6.3"
+        "typescript": "^3.0.0"
     }
 }
